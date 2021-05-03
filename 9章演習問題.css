@@ -13,6 +13,7 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
+  display: flex;
 }
 
 .boxlist {
@@ -32,4 +33,30 @@ main {
   background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
+}
+
+.box2img {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box3img {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.number {
+  position: absolute;
+  background-color: #ff9a4b;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
